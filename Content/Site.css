@@ -1,0 +1,295 @@
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input*/,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#brand-text {
+	font-size: 60px;
+	letter-spacing: .4em;
+}
+
+.jumbotron {
+	background: url("../Content/rowboat-on-sea-at-sunsetXL.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+}
+
+.jumbotron a {
+	color: white;
+	text-decoration: none;
+}
+
+.jumbo-text {
+	margin-top: 55px;
+	margin-bottom: 0;
+}
+
+.jumbo-text p {
+	font-size: 20px;
+	font-weight: 5%;
+}
+
+.jumbo-text em {
+	color: #e6e6e6;
+}
+
+strong {
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	background-color: #363636;
+	border: 1px solid black;
+}
+
+.navbar-toggler {
+	color: white;
+}
+
+.navbar a {
+	flex-grow: 1;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	/*border-right: 1px solid black;*/
+}
+
+.navbar-light .navbar-brand {
+	border: 1px solid black;
+	background: linear-gradient(#cdd076,#b1b45e);
+	color: white;
+}
+
+.nav-link {
+	margin-top: 7px;
+} 
+
+.fa-windows {
+	color: black;
+	border: 10px solid rgba(57,172,115,.6);
+	border-radius: 50%;
+	padding: 70px;
+}
+
+.fa-code {
+	color: black;
+	border: 10px solid rgba(31,61,122,.6);
+	border-radius: 50%;
+	padding: 70px;
+}
+
+.fa:hover {
+	color: #404040;
+}
+
+.icon-div {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.frontend {
+	margin-right: 4rem;
+	color: black;
+}
+
+.frontend:hover {
+	color: #404040;
+	text-decoration: none;
+}
+
+.csharp {
+	margin-left: 6rem;
+	color: black;
+}
+
+.csharp:hover {
+	color: #404040;
+	text-decoration: none;
+}
+
+
+
+
+body,ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #888;
+}
+nav .orange{
+    color: #e88873;
+}
+nav .red{
+    color: #fd5f65;
+}
+nav .green{
+    color: #59b76f;
+}
+nav .darkblue{
+    color: #3f75aa;
+}
+nav .blue{
+    color: #65c6ea;
+}
+nav a:hover{
+    color: #414141;
+}
+.open{
+    top: 0;
+}
+.menu-btn{
+    cursor: pointer;
+    background-image: url('http://thecodeblock.com/wp-content/uploads/btn-hamburger.png');
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-color: #000;
+    display: inline;
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.close-btn{
+    background-image: url('http://thecodeblock.com/wp-content/uploads/btn-close.png');
+}
+nav{
+    position: absolute;
+    top: -1600px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    transition: all 0.5s;
+    font-family: arial;
+    z-index: 1000;
+}
+nav > ul{
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: center;
+}
+nav > ul > li > a{
+    font-size: 72px;
+    font-weight: bold;
+    padding: 10px 0 40px 0;
+    display: block;
+}
+nav > ul > li{
+    padding: 40px 0 0 0;
+}
+nav > ul > li span{
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #adadad;
+}
+.line{
+    border-bottom: 1px solid #e0e0e0;
+}
+.sub-menu{
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30px;
+}
+.sub-menu li{
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav .email-form{
+    background: linear-gradient(to right, rgba(31,61,122,.6), rgba(57,172,115,.6));           /*#65c6ea*/
+}
+nav .email-form h2{
+    font-size: 44px;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+nav .email-form form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+nav .email-form form .field{
+    padding: 10px;
+    margin: 0;
+    width: 70%;
+    box-sizing:border-box;
+    border: none;
+    font-size: 24px;
+    color: #414141;
+}
+nav .email-form form button{
+    background: #fff;
+    border: none;
+    margin: 0;
+    font-size: 24px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+@media all and (max-width: 500px){
+       nav > ul > li > a{
+            font-size: 44px;
+        }
+        nav .email-form h2{
+            font-size: 24px;
+        }
+        nav .email-form form .field{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    nav .email-form form button{
+            width:300px;
+            width:100%
+        }
+}
+
+
+
+
+
+
+
+
+
+
